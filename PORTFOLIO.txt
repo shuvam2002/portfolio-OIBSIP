@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,900;1,700&display=swap" rel="stylesheet"> 
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/responsive/1.0.5/responsive.js"></script>
+
+  <script>
+            var navlist = document.getElementById("menu-icon");
+
+            function showMenu(){
+                navlinks.style.right= "0";
+            }
+            function hideMenu(){
+                navlinks.style.right = "-200px";
+            }
+
+        </script>
+
+<body>
+ <header>
+  <a href="#" class="logo">Portfolio</a>
+  <div class="bx bx-menu" id="menu-icon" ></div>
+  <ul class="navlist">
+   <li><a href="#home">Home</a></li>
+   <li><a href="#about">About</a></li>
+   <li><a href="#services">Services</a></li>
+   <li><a href="#project">Projects</a></li>
+   <li><a href="#contact">Contact</a></li>
+  </ul>
+ </header>
+ <section class="home" id="home">
+  <div class="home-text">
+   <h5>Hello!! Everyone</h5>
+   <h1 style="color: black;">I'M SHUVAM ,a Student</h1>
+   <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, cumque dolore 
+<br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis officiis, animi repellendus natus fuga quod quasi neque voluptatem quidem iusto delectus a architecto minima quam sapiente iure magnam magni suscipit.
+   </p>
+   <a href="#" class="btn"><i class='bx bx-phone-call'></i>Contact Me</a>
+  </div>
+  <div class="homeimg">
+   <img src="main.jpg" alt="">
+  </div>
+ </section>
+
+ <section class="about" id="about">
+  <div class="aboutimg">
+   <img src="http://idealstores.in/data/uploads/about.jpg" alt="">
+  </div>
+  <div class="abouttext">
+   <span>About Us...</span>
+   <h2 style="color: black;">Working With A Passion..🛂</h2>
+   <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ducimus hic enim quis modi totam odio rem minima temporibus debitis, accusantium, qui repellat ipsum voluptatum iure consequuntur non in tempore.</p>
+   <a href="#" class="btn">Let's Start</a>
+  </div>
+ </section>
+ <section class="service" id="#services">
+   <div class="heading">
+     <span>Services....</span>
+     <h5>Some Awesome Services</h5>
+   </div>
+   <div class="service-container">
+     <div class="row">
+      <i class='bx bx-cast'></i>
+      <h3>Business Stratergy</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur facilis odio ducimus maiores  Alias.</p>
+    </div>
+    
+    <div class="row">
+      <i class='bx bxs-user-voice' ></i>
+      <h3>Communication</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur facilis odio ducimus maiores  Alias.</p>
+    </div>
+    <div class="row">
+      <i class='bx bxs-camera-plus' ></i>
+      <h3>photo-graphy</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur facilis odio ducimus maiores  Alias.</p>
+    </div>
+    <div class="row">
+      <i class='bx bx-desktop' ></i>
+      <h3>Web Development</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur facilis odio ducimus maiores Alias.</p>
+    </div>
+
+    <div class="row">
+   <i class='bx bx-line-chart' ></i>
+      <h3>Android Development</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur facilis odio ducimus maiores  Alias.</p>
+    </div>
+    <div class="row">
+      <i class='bx bx-line-chart' ></i>
+         <h3>Android Development</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur facilis odio ducimus maiores Alias.</p>
+       </div>
+       </div>
+   <button class="btn1">Click  for More👈</button>
+ </section>
+ <section class="project" id>
+   <div class="heading">
+     <span>Projects🧑‍💻</span>
+     <h5>My Awesome Projects 💻</h5>
+   </div>
+   <div class="projects-container">
+     <div class="box box-one">
+       <div class="inner">
+      
+            <h3>The Language Of Developer</h3>
+            <button type="button">Case Study</button>
+        </div>
+     </div>
+     <div class="box box-Two">
+      <div class="inner">
+     
+           <h3>The Language Of Developer</h3>
+           <button type="button">Case Study</button>
+       </div>
+    </div>
+
+    <div class="box box-Three">
+      <div class="inner">
+       
+           <h3>The Language Of Developer</h3>
+           <button type="button">Case Study</button>
+       </div>
+    </div>
+    <div class="box box-four">
+      <div class="inner">
+      
+           <h3>The Language Of Developer</h3>
+           <button type="button">Case Study</button>
+       </div>
+    </div>
+   
+   </div>
+ </section>
+ <section class="action">
+  <div class="action-text">
+    <h2>Let's Discuss Your Idea</h2>
+    <p>Have a Thought about ur future website ❓I am always Here.</p>
+  </div>
+  <div class="action-btn">
+    <a href="#" class="action-btn">👀Get In Touch👀</a>
+  </div>
+ </section>
+ <section class="contact">
+   <div class="heading">
+     <span>Contact me📞</span>
+     <h2 style="color: white;">I'm always open to Discussion</h2>
+   </div>
+   <div class="contact-container">
+     <div class="con-box">
+     <div class="icon">
+      <i class='bx bxs-phone'></i>
+     </div>
+     <h3>Phone</h3>
+     <h6>(+91 7896544562)</h6>
+     <h6>(-85 1563247555)</h6>
+    </div>
+    <div class="con-box">
+      <div class="icon">
+        <i class='bx bx-mail-send' ></i>
+      </div>
+      <h3>Email</h3>
+      <h6>xyz@gmail.com</h6>
+      <h6>hello@gmail.com</h6>
+     </div>
+
+     <div class="con-box">
+      <div class="icon">
+        <i class='bx bx-current-location'></i>
+      </div>
+      <h3>Address</h3>
+      <h6>Bhubaneswar</h6>
+      <h6>India</h6>
+     </div>
+     
+   </div>
+ </section>
+ <footer class="footer">
+  <p>Questions? Call 000-800-040-1843</p>
+  <div class="footer-cols">
+      <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Investor Relations</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Speed Test</a></li>
+      </ul>
+      <ul>
+          <li><a href="#">Help Centre</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Cookie Preferences</a></li>
+          <li><a href="#">Watch for Free</a></li>
+      </ul>
+      <ul>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Ways to Watch</a></li>
+          <li><a href="#">Corporate Information</a></li>
+          <li><a href="#">Legal Notices</a></li>
+      </ul>
+      <ul>
+          <li><a href="#">Media Centre</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Netflix Originals</a></li>
+      </ul>
+  </div>
+</footer>
+</body>
+</html>
